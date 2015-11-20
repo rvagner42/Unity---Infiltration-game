@@ -93,7 +93,7 @@ public class MainCamera : MonoBehaviour {
 			direction += transform.right;
 		if (Input.GetKey ("a"))
 			direction += -transform.right;
-		if (Input.GetKeyDown ("left shift"))
+		if (Input.GetKeyDown ("left shift") && (Input.GetKey ("w") || Input.GetKey ("a") || Input.GetKey ("s") || Input.GetKey ("d")))
 			StartRunning ();
 		if (Input.GetKeyUp ("left shift"))
 			StopRunning ();
