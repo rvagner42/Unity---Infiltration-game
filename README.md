@@ -15,6 +15,6 @@ The player has a discretion gauge, that goes up when :
 - He stays in blue lights.
 - He is in the field of view of a camera.
 
-When the gauge reaches 75%, the alarm is declenched, and the playerhas to remain as discreet as possible.
+When the gauge reaches 75%, the alarm is declenched, and the player has to remain as discreet as possible.
 When the gauge reaches 100%, the player is noticed, the game is lost and automatically restarts.
 The gauge goes down gradually when the player isn't loud or visible.
