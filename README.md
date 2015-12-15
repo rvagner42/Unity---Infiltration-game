@@ -7,6 +7,7 @@ Controls:
 - Hold Left Shift while moving to run.
 - E to interact with objects when prompted to do so.
 - Moving the mouse will change the direction the camera is looking, FPS-style.
+- Escape will quit the game.
 
 The objective is to get the key on the desk, behind the locked door, without being noticed.
 
