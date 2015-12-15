@@ -85,6 +85,8 @@ public class MainCamera : MonoBehaviour {
 
 	void MoveCam()
 	{
+		if (Input.GetKeyDown (Keycode.Escape))
+			Application.Quit ();
 		if (Input.GetKey ("w"))
 			direction += transform.forward;
 		if (Input.GetKey ("s"))
